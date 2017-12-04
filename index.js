@@ -26,5 +26,5 @@ const selectDifferentDrivers = function(arrayOfDrivers, funct) {
     return returnLastTwoDrivers()
   }
 
-  return function(drivers)
+  // return function(drivers)
 }
