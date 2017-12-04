@@ -29,7 +29,7 @@ const selectDifferentDrivers = function(arrayOfDrivers, funct) {
   // if (funct === returnFirstTwoDrivers()) {
   //   return returnFirstTwoDrivers()
   // } else if (funct === returnLastTwoDrivers()) {
-  //   return returnLastTwoDrivers()
+  //   return returnLastTwoDrivers()}
   return funct()
-  }
+
 }
