@@ -1,4 +1,3 @@
-const drivers = [];
 
 const returnFirstTwoDrivers = function(drivers) {
   return drivers.slice(0,2);
@@ -23,6 +22,8 @@ const fareTripler = createFareMultiplier(3)
 
 
 const selectDifferentDrivers = function(arrayOfDrivers, funct) {
+  const drivers = [];
+
   console.log(arrayOfDrivers)
   console.log(funct)
   if (funct === returnFirstTwoDrivers()) {
