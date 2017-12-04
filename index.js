@@ -30,6 +30,6 @@ const selectDifferentDrivers = function(arrayOfDrivers, funct) {
   // } else if (funct === returnLastTwoDrivers()) {
   //   return returnLastTwoDrivers()}
   console.log(arrayOfDrivers)
-  console.log(funct(arrayOfDrivers))
+  return funct(arrayOfDrivers)
 
 }
