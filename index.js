@@ -20,10 +20,11 @@ const createFareMultiplier = function(multiplier) {
   }
 }
 
-const fareDoubler = function(fare) {
-  return createFareMultiplier(fare)
+const fareDoubler = createFareMultiplier(fare) 
 
-}
+// const fareDoubler = function(fare) {
+//   return createFareMultiplier(fare)
+// }
 
 const fareTripler = function(fare) {
   return createFareMultiplier(fare)
