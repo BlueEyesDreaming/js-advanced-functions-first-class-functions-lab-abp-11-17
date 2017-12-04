@@ -20,15 +20,21 @@ const createFareMultiplier = function(multiplier) {
   }
 }
 
-const fareDoubler = function(createFareMultiplier(fare)) 
+const fareDoubler = function(createFareMultiplier(fare)) {
+  
+}
 
 // const fareDoubler = function(fare) {
 //   return createFareMultiplier(fare)
 // }
 
-const fareTripler = function(fare) {
-  return createFareMultiplier(fare)
-}
+
+
+
+
+// const fareTripler = function(fare) {
+//   return createFareMultiplier(fare)
+// }
 
 
 // function selectDifferentDrivers(arrayOfDrivers, function(drivers)) {
